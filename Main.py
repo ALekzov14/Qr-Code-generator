@@ -3,7 +3,7 @@ import time
 import qrcode
 from Settings import QRbackcolor, QRfillcolor,QRboxsize, QRborder, QRversion
 
-check = "png"
+check = ".png"
 print("Hi!")
 time.sleep(0.8)
 # Основная часть / Main
