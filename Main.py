@@ -11,7 +11,8 @@ while True:
     data = input("Enter the link (for example https://github.com/ALekzov14): ")
     QRname = input("Enter the file name (for example qrcode.png):")
 
-    if check not in QRname:
+    if check not in QRname: #По факту это смысла не имеет,ведь пользователю сразу откроется файл,но если добавить это,то оно будет ещё и сохраняться в папку автоматически
+        #вместо того,чтобы делать это после вручную
         print("Mistake.You have not entered the png file resolution!\n")
     else:
         break
